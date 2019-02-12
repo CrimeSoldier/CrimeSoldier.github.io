@@ -7,13 +7,17 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="#windows下如何配置Apache2.4##下载Apache2.4下载地址 ##解压下载的压缩包解压后，压缩包里面有一个名为Apache24的目录，它就是我们需要的。将它放置到你想要的路径下（例如我放在”D:/Apache24”）。 ##修改配置文件配置文件路径：Apache24\conf\httpd.conf ###修改项含义以及如何修改  Define SRVROOT “c:/Apache">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/02/12/windows下如何配置Apache24/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="#windows下如何配置Apache2.4##下载Apache2.4下载地址 ##解压下载的压缩包解压后，压缩包里面有一个名为Apache24的目录，它就是我们需要的。将它放置到你想要的路径下（例如我放在”D:/Apache24”）。 ##修改配置文件配置文件路径：Apache24\conf\httpd.conf ###修改项含义以及如何修改  Define SRVROOT “c:/Apache">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-02-12T12:54:54.043Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="#windows下如何配置Apache2.4##下载Apache2.4下载地址 ##解压下载的压缩包解压后，压缩包里面有一个名为Apache24的目录，它就是我们需要的。将它放置到你想要的路径下（例如我放在”D:/Apache24”）。 ##修改配置文件配置文件路径：Apache24\conf\httpd.conf ###修改项含义以及如何修改  Define SRVROOT “c:/Apache">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -60,9 +64,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-windows下如何配置Apache24" class="article article-type-post" itemscope="" itemprop="blogPost">
+        <section id="main"><article id="post-windows下如何配置Apache24" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/02/12/windows下如何配置Apache24/" class="article-date">
   <time datetime="2019-02-12T12:59:55.123Z" itemprop="datePublished">2019-02-12</time>
@@ -120,62 +122,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-如何提交代码到github" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/01/21/如何提交代码到github/" class="article-date">
-  <time datetime="2019-01-21T13:41:50.491Z" itemprop="datePublished">2019-01-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/01/21/如何提交代码到github/">如何提交代码到github</a>
-    </h1>
+    <a href="/2019/01/21/如何提交代码到github/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">如何提交代码到github</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>B话不多说，请往下看。</p>
-<h2 id="本地项目如何提交到github上的一个空仓库"><a href="#本地项目如何提交到github上的一个空仓库" class="headerlink" title="本地项目如何提交到github上的一个空仓库"></a>本地项目如何提交到github上的一个空仓库</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1.打开git bash</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2.切换到项目的根目录</span><br></pre></td></tr></table></figure>
-<p>Notice: 以下都是git bash命令行</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3.git init =&gt; 初始化一个git空仓库</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4.git add . =&gt; 将项目中的文件添加到git空仓库中，“.”代表所有文件，当然，也可以根据需求只添加你想要添加的文件</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5.git commit -m &quot;XXX&quot; =&gt; 提交更新，“XXX”是注释信息，随便写</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">6.git remote add origin https://github.com/XXX/XXXXX.git =&gt; 本地git仓库关联github仓库（Https仓库地址和SSH仓库地址应该都可以，此处为Https仓库地址,“XXX”代表什么不用我多BB了吧，看不懂的请自行熟悉github）</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">7.git pull origin master =&gt; 推项目到github之前之前需要先pull一下，原因我也不知道</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">8.git push -u origin master =&gt; 推项目到github，大功告成！</span><br></pre></td></tr></table></figure>
-<h2 id="如何从github上down项目到本地"><a href="#如何从github上down项目到本地" class="headerlink" title="如何从github上down项目到本地"></a>如何从github上down项目到本地</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1.打开git bash =&gt; 此时我们的位置是在桌面(~/Desktop)</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2.git clone git@github.com:XXX/XXXXX.git =&gt; 此处为git bash命令行，“git@github.com:XXX/XXXXX.git”是github仓库的SSH地址，换成Https地址也可以。该行命令可以把项目down到本地你当前所在的位置，至此完成！</span><br></pre></td></tr></table></figure>
-<h2 id="修改项目代码后如何上传到github"><a href="#修改项目代码后如何上传到github" class="headerlink" title="修改项目代码后如何上传到github"></a>修改项目代码后如何上传到github</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1.打开git bash，切换到项目根目录</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2.git add XXX =&gt; “XXX”为项目中的某个文件(夹)，表示将它添加到git仓库中</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3.git commit -m &apos;XXX&apos; =&gt; 提交，同理“XXX”为注释，随便写</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4.git push -u origin master =&gt; 推到github仓库，搞定！</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/21/如何提交代码到github/" data-id="cjs1s2zqn0001asq81s9hloj3" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
