@@ -84,11 +84,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##下载Apache2.4<br><a href="https://www.apachelounge.com/download/" target="_blank" title="Apache2.4">下载地址</a></p>
-<p>##解压下载的压缩包<br>解压后，压缩包里面有一个名为Apache24的目录，它就是我们需要的。<br><br>将它放置到你想要的路径下（例如我放在”D:/Apache24”）。</p>
-<p>##修改配置文件<br>配置文件路径：Apache24\conf\httpd.conf</p>
-<p>###修改项含义以及如何修改</p>
-<ul>
+        <h2 id="下载Apache2-4"><a href="#下载Apache2-4" class="headerlink" title="下载Apache2.4"></a>下载Apache2.4</h2><p><a href="https://www.apachelounge.com/download/" target="_blank" title="Apache2.4">下载地址</a></p>
+<h2 id="解压下载的压缩包"><a href="#解压下载的压缩包" class="headerlink" title="解压下载的压缩包"></a>解压下载的压缩包</h2><p>解压后，压缩包里面有一个名为Apache24的目录，它就是我们需要的。<br><br>将它放置到你想要的路径下（例如我放在”D:/Apache24”）。</p>
+<h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><p>配置文件路径：Apache24\conf\httpd.conf</p>
+<h3 id="修改项含义以及如何修改"><a href="#修改项含义以及如何修改" class="headerlink" title="修改项含义以及如何修改"></a>修改项含义以及如何修改</h3><ul>
 <li>Define SRVROOT “c:/Apache24”<ol>
 <li>含义：定义一个变量&nbsp;&nbsp;Apache服务器目录</li>
 <li>修改：我将它修改为了”D:/Apache24”</li>
@@ -111,8 +110,7 @@
 </directory></li>
 </ul>
 <p>到这里服务器就已经可以使用了。下面以我自己配置的Apache服务器为例，讲述如何使用<br><br>打开Apache24\bin\httpd.exe这个应用程序即开启服务器<br><br>访问localhost:3000（你设置了哪个端口号就输入哪个端口号，默认80端口，即不用输入端口号）<br><br>告诉我，你成功了！</p>
-<p>##创建Apache服务</p>
-<ul>
+<h2 id="创建Apache服务"><a href="#创建Apache服务" class="headerlink" title="创建Apache服务"></a>创建Apache服务</h2><ul>
 <li>打开cmd，进入Apache24\bin这个目录</li>
 <li>输入&nbsp;&nbsp;httpd -k install -n “Apache”&nbsp;&nbsp;安装Apache服务</li>
 <li>进入服务，可以看到Apache服务</li>
